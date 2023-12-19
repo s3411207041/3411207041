@@ -5,37 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* Text文字 */
-        /* 文字顏色 */
+        /*Text文字*/
+        /*文字顏色*/
         .text_color{
-            color:red
+            color:red;
         }
-        /* 文字對齊 */
-        .text_align{
+        /*文字對齊*/
+        .text_ailgn{
             text-align: center;
         }
-        /* 行高 */
+        /*行高*/
         .text_line{
             line-height: 100px;
         }
-        /* 文字線段 */
+        /*文字線段*/
         .text_decoration{
-            /* 底線 */
-            text-decoration: underline;
+            /*刪除*/
+            text-decoration:line-through;
         }
-        /* 縮排 */
+        /*縮排*/
         .text_indent{
             text-indent: 30px;
         }
-        /* 字距*/
+        /*字距*/
         .text_letter{
             letter-spacing: 30px;
+        }
+        /*字體樣式*/
+        .font_style{
+            /*斜體*/
+            font-style: italic;
+        }
+        /*字體粗細*/
+        .font_weight{
+            font-weight: bold;
+        }
+        /*字體大小*/
+        .font_size{
+        font-size: 30px;
+        }
+        /*字型*/
+        .font_family{
+            font-family: "標楷體";
+        }
+        /*Link連結*/
+        /*未訪問*/
+        .a_link:link{
+            color:green;
+        }
+        /*訪問過*/
+        .a_link:visited{
+            color:red;
+        }
+        /*移入*/
+        .a_link:hover{
+            color: yellow;
+        }
+        /*點下去*/
+        .a_link:active{
+            color: blue;
         }
     </style>
 </head>
 <body>
-    <div class="text_color text_align text_line text_decoration text_indent text_letter">
+    <div class="text_color text_ailgn text_line text_decoration text_indent text_letter">
         text文字
     </div>
+    <div class="font_style font_weight font_size font_family">
+        font字型
+    </div>
+    <a href="#" class="a_link">Link連結</a>
+</div>
 </body>
 </html>
