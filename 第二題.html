@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table{
+            border-collapse:collapse;
+        }
+        .title{
+            font-size: 16px;
+            background-color: red;
+            color:white;
+            text-align:center;
+        }
+        .title1{
+            background-color: gray;
+            color:white;
+            text-align:center;
+        }
+        .title2{
+            background-color: blue;
+            color:white;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <table height="400" border="1" class="table">
+        <tr>
+            <td class="title">姓名</td>
+            <td colspan="5">郭芸珊</td>
+        </tr>
+        <tr>
+            <td class="title">學號</td>
+            <td colspan="5">3411207041</td>
+        </tr>
+        <tr>
+            <td class="title">日期</td>
+            <td>星期一</td>
+            <td>星期二</td>
+            <td>星期三</td>
+            <td>星期四</td>
+            <td>星期五</td>
+        </tr>
+        <tr>
+            <td class="title1" colspan="6">課表</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="title2">08:00~10:00</td> 
+            <td rowspan="2">休閒服務業管理</td>
+            <td>餐廳經營管理</td>
+            <td rowspan="2">旅館經營管理</td>
+            <td>生活美學</td>
+            <td>網頁設計</td>
+        </tr>
+        <tr>
+            <td rowspan="2">主題樂園管理</td>
+            <td>消費者行為</td>
+            <td rowspan="3">休閒事業個案分析</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="title2">10:00~12:00</td>
+            <td rowspan="2">休閒產業分析</td>
+            <td>休閒事業經營策略</td>
+            <td rowspan="2">企業倫理</td>
+        </tr>
+        <tr>
+            <td>領隊與導遊實務</td>
+            <td>休閒活動企劃</td>
+        </tr>
+    </table>
+</body>
+</html>
